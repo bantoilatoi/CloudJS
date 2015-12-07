@@ -1,11 +1,12 @@
 /*
  * This is a JavaScript Library Which works for Cloud File Sharing/Store.
- *
- * You can use this library in your any number of projects as well as domain whether it is commercial or non-commercial
- * You can put my name as a contributor if you wish. Reward Should be given, not for taken!!!,
+ * Released and Licenced under MIT
+ * You can use this library in any number of your project for Free (commercial or non-commercial)
  * Author: Farhadur Rahim,
  * Email:  webmechanicx@gmail.com
  ***************************************************************************************************************************/
+
+(function(){
 
 var Cloud = {};
 var SaveAs;
@@ -79,3 +80,4 @@ Cloud = {
 			return document.getElementsByTagName("head")[0].appendChild(ref);
   }
 };
+})(window);
