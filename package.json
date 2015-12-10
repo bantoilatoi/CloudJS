@@ -24,7 +24,7 @@
   "contributors"   :  [
                          "Mahfuzul Haque <dhack@dozenhack.com>"
                       ],
-  "licenses"       :  	 ["MIT"],
+  "licenses"       :  ["MIT"],
   "dependencies"   :  {},
   "devDependencies":  {},
   "scripts"        :  {
