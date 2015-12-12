@@ -28,6 +28,6 @@
   "dependencies"   :  {},
   "devDependencies":  {},
   "scripts"        :  {
-                         "test": "jasmine spec"
+                         "test": ""
                       }
 }
