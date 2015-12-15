@@ -6,7 +6,7 @@
  * Email:  webmechanicx@gmail.com
  ***************************************************************************************************************************/
 
-(function(){
+(function(w){
 
 var Cloud = {};
 var SaveAs;
@@ -16,19 +16,18 @@ var placeholder; // Work as a DOM Selector;
 var file_array = ['//example.com/path/myfile.pdf', 'my_example.pdf', 'My Blog Name'];
 
 /*@Initiate CloudJS by Calling METHOD "SaveAS"
-@ Cloud.SaveAS (element, provider = ["DropBox", "GoogleDrive", "OneDrive"], options = {})
-@ providers is OPTIONAL, By Default it appends three available cloud providers  
-*/
+ *@ Cloud.SaveAS (element, provider = ["DropBox", "GoogleDrive", "OneDrive"], options = {})
+ *@ providers is OPTIONAL, By Default it appends three available cloud providers  
+ */
 
 Cloud = {
-  
   var ref;
   var options   = [];
   var providers = [];
   var config    = {
-                  "DropBox"     : [ 'a1jy330vpyki64', "https://www.dropbox.com/static/api/2/dropins.js"], 
-                  "GoogleDrive" : [ 'a1jy330vpyki64', "https://apis.google.com/js/platform.js"], 
-                  "OneDrive"    : [ 'a1jy330vpyki64', "https://apis.google.com/js/platform.js"]
+                  'DropBox'     : [ 'a1jy330vpyki64', "https://www.dropbox.com/static/api/2/dropins.js"], 
+                  'GoogleDrive' : [ 'a1jy330vpyki64', "https://apis.google.com/js/platform.js"], 
+                  'OneDrive'    : [ 'a1jy330vpyki64', "https://apis.google.com/js/platform.js"]
                   };
   
   SaveAS        : function (placeholder, providers, options ){
