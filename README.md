@@ -1,6 +1,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-[![cloudjs](https://cloud.githubusercontent.com/assets/7023876/12836502/be1fc49e-cbe3-11e5-996e-19434571d054.jpg)](https://webmechanicx.github.io/CloudJS/)
+[![cloudjs](https://cloud.githubusercontent.com/assets/7023876/12836758/dd807a2a-cbe5-11e5-8a7b-e28a8d5544ea.png)](https://webmechanicx.github.io/CloudJS/)
 
 
 # CloudJS
