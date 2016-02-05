@@ -1,4 +1,8 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
+[![cloudjs](https://cloud.githubusercontent.com/assets/7023876/12836502/be1fc49e-cbe3-11e5-996e-19434571d054.jpg)](https://webmechanicx.github.io/CloudJS/)
+
+
 # CloudJS
 CloudJS - CloudJS - A simple jQuery plugin, Let your visitor saves a file into their DropBox, Google Drive etc.
 
