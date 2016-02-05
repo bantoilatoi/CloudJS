@@ -5,6 +5,13 @@
  * Author: Farhadur Rahim,
  * Email:  webmechanicx@gmail.com
  ***************************************************************************************************************************/
+ 
+ 
+ 
+ /*
+ 	MAIN LIBRARY PACKAGED WITH THE NAME jQuery.Cloud.js under the same directory
+ 	PLEASE LEAVE THIS FILE HERE 
+ */
 
 (function(w){
 
