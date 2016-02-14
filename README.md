@@ -1,4 +1,4 @@
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/webmechanicx/cloudjs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)  [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/webmechanicx/cloudjs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 [![cloudjs](https://cloud.githubusercontent.com/assets/7023876/12836758/dd807a2a-cbe5-11e5-8a7b-e28a8d5544ea.png)](https://webmechanicx.github.io/CloudJS/)
 
