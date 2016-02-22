@@ -1,10 +1,11 @@
 /* plgName       : jQuery.Cloud.js
  * Licence       : MIT licensed - Copyright (C) 2015-2016 Farhadur Rahim @webmechanicx.
  * Released      : 02/07/2016
- * Version       : jQuery 
+ * Version       : jQuery
+ * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
  * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
  * Usage:        : Please visit github page - cloudjs.webmechanicx.github.io,
- * repositoy     : 
+ * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
 
 (function($) {
@@ -35,7 +36,7 @@
            
         }).promise().then(function(){   /*@call jQuery.promise for immediate invocation*/
                    
-			if('dropBox' in settings){
+		if('dropBox' in settings){
                     var dropApi = document.createElement('script');
                     dropApi.setAttribute("type","text/javascript");
                     dropApi.setAttribute("src", 'https://www.dropbox.com/static/api/2/dropins.js');
@@ -44,7 +45,7 @@
                     document.getElementsByTagName("head")[0].appendChild(dropApi);
             }
 									 
-			if('googleDrive' in settings){
+		if('googleDrive' in settings){
                     var googleApi = document.createElement('script');
                     googleApi.setAttribute("src", 'https://apis.google.com/js/platform.js');
                     googleApi.setAttribute("async", true);
@@ -63,7 +64,7 @@
 			       cloudButtons += '<a href="' + uriBase + '" class="dropbox-saver"></a>';
 		          }
            
-		    return cloudButtons;
+		return cloudButtons;
         }
     }
     
