@@ -2,7 +2,7 @@
  * Licence       : MIT licensed - Copyright (C) 2015-2016 Farhadur Rahim @webmechanicx.
  * Released      : 02/07/2016
  * Version       : jQuery
- * Author	 	 : Farhadur Rahim <webmechanicx@gmail.com>
+ * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
  * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
  * Usage:        : Please visit github page - https://webmechanicx.github.io/CloudJS/,
  * repositoy     : https://github.com/webmechanicx/CloudJS/
