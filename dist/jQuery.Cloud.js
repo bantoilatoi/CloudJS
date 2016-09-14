@@ -56,13 +56,13 @@
             
         });
         
-       function getBtnHtml(settings, onlyfilename, uriBase){
+       function getBtnHtml(settings, onlyfilename, baseURL){
 		cloudButtons = '';
                 if('googleDrive' in settings){
-			        cloudButtons += '<a class="g-savetodrive" data-src="' + uriBase + '" data-filename="' + onlyfilename + '" data-sitename="' + siteTitle + '"></a>';	
+			        cloudButtons += '<a class="g-savetodrive" data-src="' + baseURL + '" data-filename="' + onlyfilename + '" data-sitename="' + siteTitle + '"></a>';	
     		    }    
 		        if('dropBox' in settings){
-			       cloudButtons += '<a href="' + uriBase + '" class="dropbox-saver"></a>';
+			       cloudButtons += '<a href="' + baseURL + '" class="dropbox-saver"></a>';
 		          }
            
 		return cloudButtons;
