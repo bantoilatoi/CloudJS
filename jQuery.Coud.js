@@ -16,7 +16,7 @@
             cloudButtons     	= '',
             siteTitle        	= $(document).attr("title"),
             currentURI       	= window.location.href,
-            uriBase		= currentURI.substring(0, currentURI.lastIndexOf('/'));
+            uriBase		= currentURI.substring(0, currentURI.lastIndexOf('/')); //generating current URL without hash
             onlyfilename     	= '';
            
         /*establish our default settings for Cloud APIs*/
