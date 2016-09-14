@@ -2,29 +2,29 @@
  * Licence       : MIT licensed - Copyright (C) 2015-2016 Farhadur Rahim @webmechanicx.
  * Released      : 02/07/2016
  * Version       : jQuery
- * Author	 	     : Farhadur Rahim <webmechanicx@gmail.com>
+ * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
  * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
- * Usage:        : Please visit github page - https://webmechanicx.github.io/CloudJS/,
+ * Usage:        : Please visit github page - https://webmechanicx.github.com/CloudJS/
  * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
 
 (function($) {
     $.fn.Cloud = function( options ) {
         
-        var elem             = $( this ),
-            getButtons       = '',
-            cloudButtons     = '',
-            siteTitle        = $(document).attr("title"),
-            currentURI       = window.location.href,
-			uriBase 		 = currentURI.substring(0, currentURI.lastIndexOf('/'));
-            onlyfilename     = '';
+        var elem             	= $( this ),
+            getButtons       	= '',
+            cloudButtons     	= '',
+            siteTitle        	= $(document).attr("title"),
+            currentURI       	= window.location.href,
+            uriBase		= currentURI.substring(0, currentURI.lastIndexOf('/')); //generating current URL without hash
+            onlyfilename     	= '';
            
-        /*establish our default settings for Cloud APIs*/
+        /*add your own default settings for Cloud APIs*/
         /*@settings Google-Drive | Dropbox APIs and other if you wise to add*/
         
         var settings = $.extend({
             googleDrive  : 'auto', 
-            dropBox      : 'a1jy330vpyki64r'
+            dropBox      : 'a1jy330vpyki64r' // generate your own api from dropbox
         }, options);
        
         return this.each( function() {
