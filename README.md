@@ -6,6 +6,7 @@
 ###Introduction
 CloudJS is a simple jQuery plugin and gives a flexible way to share a file with end user which they can store into their DropBox, Google Drive etc.
 
+
 ###Good Fit for:
 1. Personal Site
 2. Blog
@@ -26,7 +27,10 @@ CloudJS is a simple jQuery plugin and gives a flexible way to share a file with 
    <script src="dist/jQuery.Cloud.js"></script>
    <script>
    $(document).ready(function(){
-		$('#cloudjs').Cloud({
+   		
+   		//$.Cloud - setting is optional if you defined inside plugin
+		
+		$('.cloudjs').Cloud({
 		googleDrive : 'auto',
 		dropBox : 'a1jy330vpyki64r'
 		});
@@ -36,7 +40,7 @@ CloudJS is a simple jQuery plugin and gives a flexible way to share a file with 
 
 
 ```html
-   <div id="cloudjs" data-file-link="doc/example.txt"></div>
+   <div class="cloudjs" data-file-link="doc/example.pdf"></div>
 
 ```
 
