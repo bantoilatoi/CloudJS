@@ -57,7 +57,7 @@
         });
         
        function getBtnHtml(settings, onlyfilename, uriBase){
-
+		cloudButtons = '';
                 if('googleDrive' in settings){
 			        cloudButtons += '<a class="g-savetodrive" data-src="' + uriBase + '" data-filename="' + onlyfilename + '" data-sitename="' + siteTitle + '"></a>';	
     		    }    
