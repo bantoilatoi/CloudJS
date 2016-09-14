@@ -3,6 +3,22 @@
 
 [![cloudjs_small](https://cloud.githubusercontent.com/assets/7023876/12836797/32e88944-cbe6-11e5-95d2-6d5cfad8d085.png)](https://webmechanicx.github.io/CloudJS/)
 
+###Installation:
+1. Add jQuery Library from local or any CDN site.
+2. Include jQuery.Cloud.js from dist folder
+3. Create a html block element "div" and add a custom data attribute 'data-file-link' to hold the root path of your file e.g. images/wallpaper.jpg, doc/example.docx
+4. Call Cloudjs, that's it!!
+
+'''javascript
+$(document).ready(function(){
+			$('#cloudjs').Cloud({
+				googleDrive : 'auto',
+				dropBox : 'a1jy330vpyki64r'
+			});
+		});
+
+
+
 ###CloudJS
 
 A simple jQuery plugin, Let your visitor save a file into their DropBox, Google Drive etc.
