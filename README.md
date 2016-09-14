@@ -6,7 +6,7 @@
 ###Installation:
 1. Add jQuery Library from local or any CDN site.
 2. Include jQuery.Cloud.js from dist folder
-3. Create a html block element `div` and add a custom data attribute `data-file-link` to hold the root path of your file e.g. images/wallpaper.jpg, doc/example.docx
+3. Create a html block element `div` and add a custom data attribute `data-file-link` to hold the root path of your file e.g. images/wallpaper.jpg, doc/example.txt
 4. Call Cloudjs, that's it!!
 
 
