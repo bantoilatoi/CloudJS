@@ -3,7 +3,7 @@
  * Released      : 02/07/2016
  * Version       : jQuery
  * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
- * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
+ * Description   : A Simple jQuery Plugin that let you share a file to your visitor which they can store in dropbox, google drive etc.
  * Usage:        : Please visit github page - https://webmechanicx.github.com/CloudJS/
  * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
@@ -28,11 +28,11 @@
         }, options);
        
         return this.each( function() {
-
-                   uriBase        =  uriBase + '/' + $(this).data("file-link");
+		   
+                   baseURL        =  uriBase + '/' + $(this).data("file-link");
                    onlyfilename     = uriBase.match(/.*\/([^/]+)\.([^?]+)/i)[1]; //return only a valid file
             
-                   getButtons = getBtnHtml(settings, onlyfilename, uriBase);  /*get buttons chunk*/
+                   getButtons = getBtnHtml(settings, onlyfilename, baseURL);  /*get buttons chunk*/
                    $(this).append(getButtons); 
            
         }).promise().then(function(){   /*@call jQuery.promise for immediate invocation*/
@@ -56,13 +56,13 @@
             
         });
         
-       function getBtnHtml(settings, onlyfilename, uriBase){
-
+       function getBtnHtml(settings, onlyfilename, baseURL){
+		cloudButtons = '';
                 if('googleDrive' in settings){
-			        cloudButtons += '<a class="g-savetodrive" data-src="' + uriBase + '" data-filename="' + onlyfilename + '" data-sitename="' + siteTitle + '"></a>';	
+			        cloudButtons += '<a class="g-savetodrive" data-src="' + baseURL + '" data-filename="' + onlyfilename + '" data-sitename="' + siteTitle + '"></a>';	
     		    }    
 		        if('dropBox' in settings){
-			       cloudButtons += '<a href="' + uriBase + '" class="dropbox-saver"></a>';
+			       cloudButtons += '<a href="' + baseURL + '" class="dropbox-saver"></a>';
 		          }
            
 		return cloudButtons;
