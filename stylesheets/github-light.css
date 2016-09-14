@@ -113,4 +113,9 @@
 .pl-mo /* meta.output */ {
   color: #1d3e81;
 }
-
+.cloudjs .dropbox-dropin-btn, .cloudjs .dropbox-dropin-btn:link, .cloudjs .dropbox-dropin-btn:hover{
+ padding: 4px 7px 8px 3px !important;
+}
+.cloudjs > a, .cloudjs .dropbox-dropin-btn {
+margin-left:5px;
+}
