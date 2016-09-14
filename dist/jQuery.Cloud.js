@@ -28,11 +28,11 @@
         }, options);
        
         return this.each( function() {
-
-                   uriBase        =  uriBase + '/' + $(this).data("file-link");
+		   
+                   baseURL        =  uriBase + '/' + $(this).data("file-link");
                    onlyfilename     = uriBase.match(/.*\/([^/]+)\.([^?]+)/i)[1]; //return only a valid file
             
-                   getButtons = getBtnHtml(settings, onlyfilename, uriBase);  /*get buttons chunk*/
+                   getButtons = getBtnHtml(settings, onlyfilename, baseURL);  /*get buttons chunk*/
                    $(this).append(getButtons); 
            
         }).promise().then(function(){   /*@call jQuery.promise for immediate invocation*/
