@@ -3,7 +3,7 @@
  * Released      : 02/07/2016
  * Version       : jQuery
  * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
- * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
+ * Description   : A Simple jQuery Plugin that let you share a file to your visitor which they can store in dropbox, google drive etc.
  * Usage:        : Please visit github page - https://webmechanicx.github.com/CloudJS/
  * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
