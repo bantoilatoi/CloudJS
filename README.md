@@ -10,7 +10,7 @@ CloudJS is a simple jQuery plugin and gives a flexible way to share a file with 
 ###Good Fit for:
 1. Personal Site
 2. Blog
-3. Manazine and Newspaper.
+3. Magazine and Newspaper.
 4. Document Seller
 5. And any other services which related to file sharing.
 
