@@ -19,12 +19,12 @@
             uriBase		= currentURI.substring(0, currentURI.lastIndexOf('/')); //generating current URL without hash
             onlyfilename     	= '';
            
-        /*establish our default settings for Cloud APIs*/
+        /*add your own default settings for Cloud APIs*/
         /*@settings Google-Drive | Dropbox APIs and other if you wise to add*/
         
         var settings = $.extend({
             googleDrive  : 'auto', 
-            dropBox      : 'a1jy330vpyki64r'
+            dropBox      : 'a1jy330vpyki64r' // generate your own api from dropbox
         }, options);
        
         return this.each( function() {
