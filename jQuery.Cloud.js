@@ -4,7 +4,7 @@
  * Version       : jQuery
  * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
  * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
- * Usage:        : Please visit github page - https://webmechanicx.github.io/CloudJS/,
+ * Usage:        : Please visit github page - https://webmechanicx.github.com/CloudJS/
  * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
 
