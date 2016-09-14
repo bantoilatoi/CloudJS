@@ -6,17 +6,32 @@
 ###Installation:
 1. Add jQuery Library from local or any CDN site.
 2. Include jQuery.Cloud.js from dist folder
-3. Create a html block element "div" and add a custom data attribute 'data-file-link' to hold the root path of your file e.g. images/wallpaper.jpg, doc/example.docx
+3. Create a html block element `div` and add a custom data attribute `data-file-link` to hold the root path of your file e.g. images/wallpaper.jpg, doc/example.docx
 4. Call Cloudjs, that's it!!
 
-'''javascript
-$(document).ready(function(){
-			$('#cloudjs').Cloud({
-				googleDrive : 'auto',
-				dropBox : 'a1jy330vpyki64r'
-			});
-		});
 
+```javascript
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="dist/jQuery.Cloud.js"></script>
+   <script>
+   $(document).ready(function(){
+		$('#cloudjs').Cloud({
+		googleDrive : 'auto',
+		dropBox : 'a1jy330vpyki64r'
+		});
+	});
+   </script>
+```
+
+
+```html
+   <div id="cloudjs" data-file-link="doc/example.docx"></div>
+
+```
+
+
+###Live Action:
+<a href="https://webmechanicx.github.io/CloudJS/" target="_blank">Live Demo</a>
 
 
 ###CloudJS
