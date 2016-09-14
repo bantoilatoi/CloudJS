@@ -25,7 +25,7 @@
 
 
 ```html
-   <div id="cloudjs" data-file-link="doc/example.docx"></div>
+   <div id="cloudjs" data-file-link="doc/example.txt"></div>
 
 ```
 
