@@ -40,6 +40,14 @@
 <li>Document Seller</li>
 <li>And Any number of services which related to file sharing over websites or application.</li>
 </ol>
+<br/>
+<br/>
+<br/>
+Example Cloud Sharing Buttons:
+<div id="cloudjs" data-file-link="doc/FAQ.docx"></div>
+<br/>
+<br/>
+<br/>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -59,6 +67,19 @@
 
     </section>
 
-  
+  <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	
+    <!-- jQuery.Cloud JavaScript -->
+    <script src="dist/jQuery.Cloud.js"></script>    
+
+	<script>
+		$(document).ready(function(){
+			$('#cloudjs').Cloud({
+				googleDrive : 'auto',
+				dropBox : 'a1jy330vpyki64r' //user your own api
+			});
+		});
+	</script>
   </body>
 </html>
