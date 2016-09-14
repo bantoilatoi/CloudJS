@@ -2,21 +2,22 @@
  * Licence       : MIT licensed - Copyright (C) 2015-2016 Farhadur Rahim @webmechanicx.
  * Released      : 02/07/2016
  * Version       : jQuery
- * Author	 : Farhadur Rahim <webmechanicx@gmail.com>
+ * Author	 	 : Farhadur Rahim <webmechanicx@gmail.com>
  * Description   : Zero Configuration, Only Dependency is jQuery and compatible with every version.
- * Usage:        : Please visit github page - cloudjs.webmechanicx.github.io,
+ * Usage:        : Please visit github page - https://webmechanicx.github.io/CloudJS/,
  * repositoy     : https://github.com/webmechanicx/CloudJS/
  */
 
 (function($) {
     $.fn.Cloud = function( options ) {
         
-        var elem             = $( this ),
-            getButtons       = '',
-            cloudButtons     = '',
-            siteTitle        = $(document).attr("title"),
-            uriBase          = window.location.protocol + '//' + window.location.host,
-            onlyfilename     = '';
+        var elem             	= $( this ),
+            getButtons       	= '',
+            cloudButtons     	= '',
+            siteTitle        	= $(document).attr("title"),
+            currentURI       	= window.location.href,
+            uriBase		= currentURI.substring(0, currentURI.lastIndexOf('/'));
+            onlyfilename     	= '';
            
         /*establish our default settings for Cloud APIs*/
         /*@settings Google-Drive | Dropbox APIs and other if you wise to add*/
@@ -28,7 +29,7 @@
        
         return this.each( function() {
 
-                   uriBase        =  uriBase + $(this).data("file-link");
+                   uriBase        =  uriBase + '/' + $(this).data("file-link");
                    onlyfilename     = uriBase.match(/.*\/([^/]+)\.([^?]+)/i)[1]; //return only a valid file
             
                    getButtons = getBtnHtml(settings, onlyfilename, uriBase);  /*get buttons chunk*/
