@@ -3,6 +3,17 @@
 
 [![cloudjs_small](https://cloud.githubusercontent.com/assets/7023876/12836797/32e88944-cbe6-11e5-95d2-6d5cfad8d085.png)](https://webmechanicx.github.io/CloudJS/)
 
+###Introduction
+CloudJS is a simple jQuery plugin and gives a flexible way to share a file with end user which they can store into their DropBox, Google Drive etc.
+
+###Good Fit for:
+1. Personal Site
+2. Blog
+3. Manazine and Newspaper.
+4. Document Seller
+5. And any other services which related to file sharing.
+
+
 ###Installation:
 1. Add jQuery Library from local or any CDN site.
 2. Include jQuery.Cloud.js from dist folder
